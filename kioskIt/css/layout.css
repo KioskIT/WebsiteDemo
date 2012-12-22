@@ -1,0 +1,119 @@
+body {	background-color: #11111;}
+
+h1 { color: #11111;
+	font-family:Arial;
+	}
+
+a {color:#ffffff; 
+	text-decoration: none;
+	font-weight:bold;}
+	
+	.button
+{
+	background-color:#000000;
+	
+	border:2px solid #FFFFFF;
+	
+	display:inline-block;
+	
+	color:#FFFFFF;
+	font-family:arial;
+	font-size:15px;
+	padding:3px 4px 6px 24px;
+	text-decoration:none;
+	text-align:center;
+	
+	position:relative;
+	
+	width:150px;
+	height:26px;
+	
+	-webkit-user-select: none;
+}
+.menu_button
+{
+	background-color:#181818;
+	
+	display:inline-block;
+	
+	color:#FFFFFF;
+	font-family:arial;
+	font-size:15px;
+	
+	text-decoration:none;
+	text-align:center;
+	
+	position:relative;
+	
+	width:100px;
+	height:40px;
+	
+	-webkit-user-select: none;
+}
+
+.txtbox
+{
+	background-color:#FFFFFF;
+	
+	border:2px solid #000000;
+	
+	display:inline-block;
+	
+	color:#000000;
+	font-family:arial;
+	font-size:15px;
+	padding:13px 24px 6px 24px;
+	
+	text-align:center;
+	
+	position:relative;
+	
+	
+	width:200px;
+	height:15px;
+	
+	
+}
+
+
+.button:hover
+{
+	background-color:#00A600;
+}
+
+.button:active 
+{
+	background-color:#008A00;
+}
+
+.menu_button:hover
+{
+	background-color:#FFFFFF;
+	color:#000000;
+}
+
+
+
+#menu {font-family:Arial;
+		position:absolute;
+		top:8em;
+		left:2em;
+		width:7em;
+		height:155%;
+		background-color:#181818 ;
+		margin-right:1em;
+		padding-left:1em;	
+		}
+#content{font-family:Arial;
+		position:absolute;
+		top:8em;
+		left:11em;
+		width:80%;
+		height:150%;
+		background-color:#003366;
+		line-height: 250%;
+		padding:1em;}
+		
+#header{ position:absolute;
+			top:2em;
+			left:2em;}
